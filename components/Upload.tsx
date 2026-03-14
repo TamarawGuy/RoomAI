@@ -87,8 +87,6 @@ const Upload = ({ onComplete }: UploadProps) => {
         }
     };
 
-    console.log("Progress >>>> ", progress);
-
     return (
         <div className="upload">
             {!file ? (
